@@ -1,0 +1,9 @@
+Stores JavaScript files within the database and handles them similar to CSS files.
+
+In admin section, go to tab “presentation > javascript” and create one ore more javascript files that you want to embed within your page templates. This is similiar to the “styles” tab – the JavaScript files get stored in the database and you can embed them with a new Textpattern tag:
+
+<txp:js /> (embeds default JavaScript file) 
+<txp:js n="myDomScript" /> (embeds JavaScript file named "myDomScript")
+
+Output:
+<script type="text/javascript" src="http://mysite.com/?js=myDomScript"></script>
