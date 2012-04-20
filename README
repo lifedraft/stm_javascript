@@ -1,3 +1,13 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+This plugin is outdated please use this alternative:
+
+https://github.com/spiffin/spf_js
+
+Simon, Thank you!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Stores JavaScript files within the database and handles them similar to CSS files.
 
 In admin section, go to tab “presentation > javascript” and create one ore more javascript files that you want to embed within your page templates. This is similiar to the “styles” tab – the JavaScript files get stored in the database and you can embed them with a new Textpattern tag:
